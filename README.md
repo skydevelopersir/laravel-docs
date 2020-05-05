@@ -13,3 +13,13 @@ You can find the online version of the Laravel documentation at [https://laravel
 
 
 ![](images/image.jpg)
+
+
+
+## Release
+
+
+| Version  | Status |
+| ------------- | ------------- |
+| [7.x](https://laravel.com/docs/7.x)  | Released  |
+| [6.x](https://laravel.com/docs/6.x)  | Released  |
