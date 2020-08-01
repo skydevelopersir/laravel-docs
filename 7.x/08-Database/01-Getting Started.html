@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html class="gr__laravel_com" lang="en">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
+<!-- saved from url=(0037)https://laravel.com/docs/7.x/database -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <title>Database: Getting Started - Laravel - The PHP Framework For Web Artisans</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <link rel="canonical" href="https://laravel.com/docs/7.x/database">
-
+        <link rel="canonical" href="https://laravel.com/docs/7.x/database">
+    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://laravel.com/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://laravel.com/img/favicon/favicon-32x32.png">
@@ -20,23 +19,22 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Load fonts -->
-    <link rel="stylesheet" href="01-Getting%20Started_files/ins2wgm.css">
+    <link rel="stylesheet" href="./01-Getting Started_files/ins2wgm.css">
 
     <!-- Load styles -->
-    <link rel="stylesheet" type="text/css" href="01-Getting%20Started_files/app.css">
+    <link rel="stylesheet" type="text/css" href="./01-Getting Started_files/app.css">
 
     <!-- Load JS -->
-    <script src="01-Getting%20Started_files/jquery.js"></script>
+    <script src="./01-Getting Started_files/ga.js.download"></script><script src="./01-Getting Started_files/jquery.min.js.download"></script>
 
-    <script id="_carbonads_projs" type="text/javascript" src="01-Getting%20Started_files/CKYILK3E.json"></script>
-</head>
-<body class="language-php" data-gr-c-s-loaded="true">
+<script id="_carbonads_projs" type="text/javascript" src="./01-Getting Started_files/CKYILK3E.json"></script><style type="text/css"></style></head>
+<body class="language-php" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
 
-<div class="sidebar_layout" id="docsScreen">
+    <div class="sidebar_layout" id="docsScreen">
 
-    <div class="page_contain">
-        <div class="contain">
-            <aside class="sidebar">
+        <div class="page_contain">
+            <div class="contain">
+				<aside class="sidebar">
                 <a href="../index.html" class="logo">
                     <img class="mark" src="../index_files/logomark.min.svg" alt="Laravel">
                     <img class="type" src="../index_files/logotype.min.svg" alt="Laravel">
@@ -211,556 +209,151 @@
                     </a>
                 </div>
             </aside>
-            <a href="https://laravel.com/" class="logo">
-                <img class="mark" src="01-Getting%20Started_files/logomark.svg" alt="Laravel">
-                <img class="type" src="01-Getting%20Started_files/logotype.svg" alt="Laravel">
-            </a>
-            <nav>
-                <div class="navigation_contain" style="display: block;">
-                    <div class="docs_sidebar">
-                        <ul>
-                            <li>
-                                <h2>Prologue</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/releases">Release Notes</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/upgrade">Upgrade Guide</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/contributions">Contribution Guide</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/api/7.x">API Documentation</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Getting Started</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/installation">Installation</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/configuration">Configuration</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/structure">Directory Structure</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/docs/7.x/homestead">Homestead</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/valet">Valet</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/deployment">Deployment</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Architecture Concepts</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/lifecycle">Request Lifecycle</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/container">Service Container</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/providers">Service Providers</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/facades">Facades</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/contracts">Contracts</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>The Basics</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/routing">Routing</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/middleware">Middleware</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/csrf">CSRF Protection</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/controllers">Controllers</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/requests">Requests</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/responses">Responses</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/views">Views</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/urls">URL Generation</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/session">Session</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/validation">Validation</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/errors">Error Handling</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/logging">Logging</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Frontend</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/blade">Blade Templates</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/localization">Localization</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/frontend">Frontend Scaffolding</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/docs/7.x/mix">Compiling Assets</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Security</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/authentication">Authentication</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/docs/7.x/authorization">Authorization</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/verification">Email Verification</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/docs/7.x/encryption">Encryption</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/hashing">Hashing</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/passwords">Password Reset</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Digging Deeper</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/artisan">Artisan Console</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/broadcasting">Broadcasting</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/cache">Cache</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/collections">Collections</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/events">Events</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/filesystem">File Storage</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/helpers">Helpers</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/http-client">HTTP Client</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/mail">Mail</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/notifications">Notifications</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/packages">Package Development</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/queues">Queues</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/scheduling">Task Scheduling</a></li>
-                                </ul>
-                            </li>
-                            <li class="sub--on">
-                                <h2>Database</h2>
-                                <ul>
-                                    <li class="active"><a href="https://laravel.com/docs/7.x/database">Getting
-                                        Started</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/queries">Query Builder</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/pagination">Pagination</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/migrations">Migrations</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/seeding">Seeding</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/redis">Redis</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Eloquent ORM</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/eloquent">Getting Started</a></li>
-                                    <li>
-                                        <a href="https://laravel.com/docs/7.x/eloquent-relationships">Relationships</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/docs/7.x/eloquent-collections">Collections</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/docs/7.x/eloquent-mutators">Mutators</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/eloquent-resources">API Resources</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://laravel.com/docs/7.x/eloquent-serialization">Serialization</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Testing</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/testing">Getting Started</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/http-tests">HTTP Tests</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/console-tests">Console Tests</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/dusk">Browser Tests</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/database-testing">Database</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/mocking">Mocking</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h2>Official Packages</h2>
-                                <ul>
-                                    <li><a href="https://laravel.com/docs/7.x/billing">Cashier (Stripe)</a></li>
-                                    <li><a href="https://github.com/laravel/cashier-mollie">Cashier (Mollie)</a>
-                                    </li>
-                                    <li><a href="https://laravel.com/docs/7.x/dusk">Dusk</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/envoy">Envoy</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/horizon">Horizon</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/passport">Passport</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/sanctum">Sanctum</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/scout">Scout</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/socialite">Socialite</a></li>
-                                    <li><a href="https://laravel.com/docs/7.x/telescope">Telescope</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <script async="" type="text/javascript" src="01-Getting%20Started_files/carbon.js"
-                            id="_carbonads_js"></script>
-                    <div id="carbonads"><span><span class="carbon-wrap"><a
-                            href="https://srv.carbonads.net/ads/click/x/GTND42QYCYSIE2JNCYA4YKQMFTSDKK7MCEAITZ3JCWADK2JWFT7I6KJKC6BIE2JUCYYI6K3EHJNCLSIZ?segment=placement:laravelcom;"
-                            class="carbon-img" target="_blank" rel="noopener sponsored"><img
-                            src="01-Getting%20Started_files/1551199029-Adobe_Stock_260x200-2.jfif"
-                            alt="ads via Carbon" style="max-width: 130px;" border="0"></a><a
-                            href="https://srv.carbonads.net/ads/click/x/GTND42QYCYSIE2JNCYA4YKQMFTSDKK7MCEAITZ3JCWADK2JWFT7I6KJKC6BIE2JUCYYI6K3EHJNCLSIZ?segment=placement:laravelcom;"
-                            class="carbon-text" target="_blank" rel="noopener sponsored">Limited time offer: Get 10 free Adobe Stock images.</a></span><a
-                            href="http://carbonads.net/?utm_source=laravelcom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon"
-                            class="carbon-poweredby" target="_blank"
-                            rel="noopener sponsored">ads via Carbon</a></span></div>
-
-
-                </div>
-            </nav>
-            <div class="trigger_contain">
-                <a href="#" class="nav_trigger" aria-label="Menu">
-                    <div class="bar"></div>
-                </a>
-            </div>
-            </aside>
-
-            <section class="body_content">
-                <section class="docs_body">
-                    <section class="docs_main">
-                        <h1>Database: Getting Started</h1>
-                        <ul>
-                            <li><a href="#introduction">Introduction</a>
-                                <ul>
-                                    <li><a href="#configuration">Configuration</a></li>
-                                    <li><a href="#read-and-write-connections">Read &amp; Write Connections</a></li>
-                                    <li><a href="#using-multiple-database-connections">Using Multiple Database
-                                        Connections</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#running-queries">Running Raw SQL Queries</a></li>
-                            <li><a href="#listening-for-query-events">Listening For Query Events</a></li>
-                            <li><a href="#database-transactions">Database Transactions</a></li>
-                        </ul>
-                        <p><a name="introduction"></a></p>
-                        <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-                        <p>Laravel makes interacting with databases extremely simple across a variety of database
-                            backends using either raw SQL, the <a href="https://laravel.com/docs/7.x/queries">fluent
-                                query builder</a>, and the <a href="https://laravel.com/docs/7.x/eloquent">Eloquent
-                                ORM</a>. Currently, Laravel supports four databases:</p>
-                        <div class="content-list">
-                            <ul>
-                                <li>MySQL 5.6+ (<a href="https://en.wikipedia.org/wiki/MySQL#Release_history">Version
-                                    Policy</a>)
-                                </li>
-                                <li>PostgreSQL 9.4+ (<a href="https://www.postgresql.org/support/versioning/">Version
-                                    Policy</a>)
-                                </li>
-                                <li>SQLite 3.8.8+</li>
-                                <li>SQL Server 2017+ (<a href="https://support.microsoft.com/en-us/lifecycle/search">Version
-                                    Policy</a>)
-                                </li>
-                            </ul>
-                        </div>
-                        <p><a name="configuration"></a></p>
-                        <h3 id="configuration"><a href="#configuration">Configuration</a></h3>
-                        <p>The database configuration for your application is located at <code class=" language-php">config<span
-                                class="token operator">/</span>database<span
-                                class="token punctuation">.</span>php</code>.
-                            In this file you may define all of your database connections, as well
-                            as specify which connection should be used by default. Examples for most
-                            of the supported database systems are provided in this file.</p>
-                        <p>By default, Laravel's sample <a
-                                href="#environment-configuration">environment
-                            configuration</a> is ready to use with <a href="https://laravel.com/docs/7.x/homestead">Laravel
-                            Homestead</a>,
-                            which is a convenient virtual machine for doing Laravel development on
-                            your local machine. You are free to modify this configuration as needed
-                            for your local database.</p>
-                        <h4>SQLite Configuration</h4>
-                        <p>After creating a new SQLite database using a command such as <code class=" language-php">touch
-                            database<span class="token operator">/</span>database<span
-                                    class="token punctuation">.</span>sqlite</code>,
-                            you can easily configure your environment variables to point to this
-                            newly created database by using the database's absolute path:</p>
-                        <pre class=" language-php"><code class=" language-php"><span class="token constant">DB_CONNECTION</span><span
-                                class="token operator">=</span>sqlite
-<span class="token constant">DB_DATABASE</span><span class="token operator">=</span><span
-                                    class="token operator">/</span>absolute<span
-                                    class="token operator">/</span>path<span class="token operator">/</span>to<span
-                                    class="token operator">/</span>database<span class="token punctuation">.</span>sqlite</code></pre>
-                        <p>To enable foreign key constraints for SQLite connections, you should set the <code
-                                class=" language-php"><span class="token constant">DB_FOREIGN_KEYS</span></code>
-                            environment variable to <code class=" language-php"><span class="token boolean constant">true</span></code>:
-                        </p>
-                        <pre class=" language-php"><code class=" language-php"><span class="token constant">DB_FOREIGN_KEYS</span><span
-                                class="token operator">=</span><span
-                                class="token boolean constant">true</span></code></pre>
-                        <h4>Configuration Using URLs</h4>
-                        <p>Typically, database connections are configured using multiple configuration values such as
-                            <code class=" language-php">host</code>, <code class=" language-php">database</code>, <code
-                                    class=" language-php">username</code>, <code class=" language-php">password</code>,
-                            etc. Each of these configuration values has its own corresponding
-                            environment variable. This means that when configuring your database
-                            connection information on a production server, you need to manage
-                            several environment variables.</p>
-                        <p>Some managed database providers such as Heroku provide a single
-                            database "URL" that contains all of the connection information for the
-                            database in a single string. An example database URL may look something
-                            like the following:</p>
-                        <pre class=" language-php"><code class=" language-php">mysql<span
-                                class="token punctuation">:</span><span class="token comment">//root:password@127.0.0.1/forge?charset=UTF-8</span></code></pre>
-                        <p>These URLs typically follow a standard schema convention:</p>
-                        <pre class=" language-php"><code class=" language-php">driver<span
-                                class="token punctuation">:</span><span class="token comment">//username:password@host:port/database?options</span></code></pre>
-                        <p>For convenience, Laravel supports these URLs as an alternative to
-                            configuring your database with multiple configuration options. If the <code
-                                    class=" language-php">url</code> (or corresponding <code class=" language-php"><span
-                                    class="token constant">DATABASE_URL</span></code>
-                            environment variable) configuration option is present, it will be used
-                            to extract the database connection and credential information.</p>
-                        <p><a name="read-and-write-connections"></a></p>
-                        <h3 id="read-and-write-connections"><a href="#read-and-write-connections">Read &amp; Write
-                            Connections</a></h3>
-                        <p>Sometimes you may wish to use one database connection for SELECT
-                            statements, and another for INSERT, UPDATE, and DELETE statements.
-                            Laravel makes this a breeze, and the proper connections will always be
-                            used whether you are using raw queries, the query builder, or the
-                            Eloquent ORM.</p>
-                        <p>To see how read / write connections should be configured, let's look at this example:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token single-quoted-string string">'mysql'</span> <span
-                                class="token operator">=</span><span class="token operator">&gt;</span> <span
-                                class="token punctuation">[</span>
-    <span class="token single-quoted-string string">'read'</span> <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token punctuation">[</span>
-        <span class="token single-quoted-string string">'host'</span> <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token punctuation">[</span>
+                <section class="body_content">
+                   
+                    <section class="docs_body">
+                        <section class="docs_main">
+                            
+                            <h1>Database: Getting Started</h1>
+<ul>
+<li><a href="#introduction">Introduction</a>
+<ul>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#read-and-write-connections">Read &amp; Write Connections</a></li>
+<li><a href="#using-multiple-database-connections">Using Multiple Database Connections</a></li>
+</ul></li>
+<li><a href="#running-queries">Running Raw SQL Queries</a></li>
+<li><a href="#listening-for-query-events">Listening For Query Events</a></li>
+<li><a href="#database-transactions">Database Transactions</a></li>
+</ul>
+<p><a name="introduction"></a></p>
+<h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+<p>Laravel makes interacting with databases extremely simple across a variety of database backends using either raw SQL, the <a href="https://laravel.com/docs/7.x/queries">fluent query builder</a>, and the <a href="https://laravel.com/docs/7.x/eloquent">Eloquent ORM</a>. Currently, Laravel supports four databases:</p>
+<div class="content-list">
+<ul>
+<li>MySQL 5.6+ (<a href="https://en.wikipedia.org/wiki/MySQL#Release_history">Version Policy</a>)</li>
+<li>PostgreSQL 9.4+ (<a href="https://www.postgresql.org/support/versioning/">Version Policy</a>)</li>
+<li>SQLite 3.8.8+</li>
+<li>SQL Server 2017+ (<a href="https://support.microsoft.com/en-us/lifecycle/search">Version Policy</a>)</li>
+</ul>
+</div>
+<p><a name="configuration"></a></p>
+<h3 id="configuration"><a href="https://laravel.com/docs/7.x/database#configuration">Configuration</a></h3>
+<p>The database configuration for your application is located at <code class=" language-php">config<span class="token operator">/</span>database<span class="token punctuation">.</span>php</code>. In this file you may define all of your database connections, as well as specify which connection should be used by default. Examples for most of the supported database systems are provided in this file.</p>
+<p>By default, Laravel's sample <a href="https://laravel.com/docs/7.x/configuration#environment-configuration">environment configuration</a> is ready to use with <a href="https://laravel.com/docs/7.x/homestead">Laravel Homestead</a>, which is a convenient virtual machine for doing Laravel development on your local machine. You are free to modify this configuration as needed for your local database.</p>
+<h4>SQLite Configuration</h4>
+<p>After creating a new SQLite database using a command such as <code class=" language-php">touch database<span class="token operator">/</span>database<span class="token punctuation">.</span>sqlite</code>, you can easily configure your environment variables to point to this newly created database by using the database's absolute path:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB_CONNECTION</span><span class="token operator">=</span>sqlite
+<span class="token constant">DB_DATABASE</span><span class="token operator">=</span><span class="token operator">/</span>absolute<span class="token operator">/</span>path<span class="token operator">/</span>to<span class="token operator">/</span>database<span class="token punctuation">.</span>sqlite</code></pre>
+<p>To enable foreign key constraints for SQLite connections, you should set the <code class=" language-php"><span class="token constant">DB_FOREIGN_KEYS</span></code> environment variable to <code class=" language-php"><span class="token boolean constant">true</span></code>:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB_FOREIGN_KEYS</span><span class="token operator">=</span><span class="token boolean constant">true</span></code></pre>
+<h4>Configuration Using URLs</h4>
+<p>Typically, database connections are configured using multiple configuration values such as <code class=" language-php">host</code>, <code class=" language-php">database</code>, <code class=" language-php">username</code>, <code class=" language-php">password</code>, etc. Each of these configuration values has its own corresponding environment variable. This means that when configuring your database connection information on a production server, you need to manage several environment variables.</p>
+<p>Some managed database providers such as Heroku provide a single database "URL" that contains all of the connection information for the database in a single string. An example database URL may look something like the following:</p>
+<pre class=" language-php"><code class=" language-php">mysql<span class="token punctuation">:</span><span class="token comment">//root:password@127.0.0.1/forge?charset=UTF-8</span></code></pre>
+<p>These URLs typically follow a standard schema convention:</p>
+<pre class=" language-php"><code class=" language-php">driver<span class="token punctuation">:</span><span class="token comment">//username:password@host:port/database?options</span></code></pre>
+<p>For convenience, Laravel supports these URLs as an alternative to configuring your database with multiple configuration options. If the <code class=" language-php">url</code> (or corresponding <code class=" language-php"><span class="token constant">DATABASE_URL</span></code> environment variable) configuration option is present, it will be used to extract the database connection and credential information.</p>
+<p><a name="read-and-write-connections"></a></p>
+<h3 id="read-and-write-connections"><a href="https://laravel.com/docs/7.x/database#read-and-write-connections">Read &amp; Write Connections</a></h3>
+<p>Sometimes you may wish to use one database connection for SELECT statements, and another for INSERT, UPDATE, and DELETE statements. Laravel makes this a breeze, and the proper connections will always be used whether you are using raw queries, the query builder, or the Eloquent ORM.</p>
+<p>To see how read / write connections should be configured, let's look at this example:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token single-quoted-string string">'mysql'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
+    <span class="token single-quoted-string string">'read'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
+        <span class="token single-quoted-string string">'host'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
             <span class="token single-quoted-string string">'192.168.1.1'</span><span class="token punctuation">,</span>
             <span class="token single-quoted-string string">'196.168.1.2'</span><span class="token punctuation">,</span>
         <span class="token punctuation">]</span><span class="token punctuation">,</span>
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'write'</span> <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token punctuation">[</span>
-        <span class="token single-quoted-string string">'host'</span> <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token punctuation">[</span>
+    <span class="token single-quoted-string string">'write'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
+        <span class="token single-quoted-string string">'host'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
             <span class="token single-quoted-string string">'196.168.1.3'</span><span class="token punctuation">,</span>
-         <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'sticky'</span>    <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span
-                                    class="token boolean constant">true</span><span class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'driver'</span>    <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token single-quoted-string string">'mysql'</span><span
-                                    class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'database'</span>  <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token single-quoted-string string">'database'</span><span
-                                    class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'username'</span>  <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token single-quoted-string string">'root'</span><span
-                                    class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'password'</span>  <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token single-quoted-string string">''</span><span
-                                    class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'charset'</span>   <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token single-quoted-string string">'utf8mb4'</span><span
-                                    class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'collation'</span> <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token single-quoted-string string">'utf8mb4_unicode_ci'</span><span
-                                    class="token punctuation">,</span>
-    <span class="token single-quoted-string string">'prefix'</span>    <span class="token operator">=</span><span
-                                    class="token operator">&gt;</span> <span class="token single-quoted-string string">''</span><span
-                                    class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'sticky'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token boolean constant">true</span><span class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'driver'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'mysql'</span><span class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'database'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'database'</span><span class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'username'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'root'</span><span class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'password'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">''</span><span class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'charset'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'utf8mb4'</span><span class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'collation'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'utf8mb4_unicode_ci'</span><span class="token punctuation">,</span>
+    <span class="token single-quoted-string string">'prefix'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">''</span><span class="token punctuation">,</span>
 <span class="token punctuation">]</span><span class="token punctuation">,</span></code></pre>
-                        <p>Note that three keys have been added to the configuration array: <code class=" language-php">read</code>,
-                            <code class=" language-php">write</code> and <code class=" language-php">sticky</code>. The
-                            <code class=" language-php">read</code> and <code class=" language-php">write</code> keys
-                            have array values containing a single key: <code class=" language-php">host</code>. The rest
-                            of the database options for the <code class=" language-php">read</code> and <code
-                                    class=" language-php">write</code> connections will be merged from the main <code
-                                    class=" language-php">mysql</code> array.</p>
-                        <p>You only need to place items in the <code class=" language-php">read</code> and <code
-                                class=" language-php">write</code> arrays if you wish to override the values from the
-                            main array. So, in this case, <code class=" language-php"><span
-                                    class="token number">192.168</span><span class="token number">.1</span><span
-                                    class="token number">.1</span></code> will be used as the host for the "read"
-                            connection, while <code class=" language-php"><span class="token number">192.168</span><span
-                                    class="token number">.1</span><span class="token number">.3</span></code> will be
-                            used for the "write" connection. The database credentials, prefix, character set, and all
-                            other options in the main <code class=" language-php">mysql</code> array will be shared
-                            across both connections.</p>
-                        <h4>The <code class=" language-php">sticky</code> Option</h4>
-                        <p>The <code class=" language-php">sticky</code> option is an <em>optional</em>
-                            value that can be used to allow the immediate reading of records that
-                            have been written to the database during the current request cycle. If
-                            the <code class=" language-php">sticky</code> option is enabled and a
-                            "write" operation has been performed against the database during the
-                            current request cycle, any further "read" operations will use the
-                            "write" connection. This ensures that any data written during the
-                            request cycle can be immediately read back from the database during that
-                            same request. It is up to you to decide if this is the desired behavior
-                            for your application.</p>
-                        <p><a name="using-multiple-database-connections"></a></p>
-                        <h3 id="using-multiple-database-connections"><a href="#using-multiple-database-connections">Using
-                            Multiple Database Connections</a></h3>
-                        <p>When using multiple connections, you may access each connection via the <code
-                                class=" language-php">connection</code> method on the <code class=" language-php"><span
-                                class="token constant">DB</span></code> facade. The <code
-                                class=" language-php">name</code> passed to the <code
-                                class=" language-php">connection</code> method should correspond to one of the
-                            connections listed in your <code class=" language-php">config<span
-                                    class="token operator">/</span>database<span
-                                    class="token punctuation">.</span>php</code> configuration file:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token variable">$users</span> <span class="token operator">=</span> <span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">connection</span><span
-                                class="token punctuation">(</span><span
-                                class="token single-quoted-string string">'foo'</span><span
-                                class="token punctuation">)</span><span class="token operator">-</span><span
-                                class="token operator">&gt;</span><span class="token function">select</span><span
-                                class="token punctuation">(</span><span class="token punctuation">.</span><span
-                                class="token punctuation">.</span><span class="token punctuation">.</span><span
-                                class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-                        <p>You may also access the raw, underlying PDO instance using the <code class=" language-php">getPdo</code>
-                            method on a connection instance:</p>
-                        <pre class=" language-php"><code class=" language-php"><span class="token variable">$pdo</span> <span
-                                class="token operator">=</span> <span class="token constant">DB</span><span
-                                class="token punctuation">:</span><span class="token punctuation">:</span><span
-                                class="token function">connection</span><span class="token punctuation">(</span><span
-                                class="token punctuation">)</span><span class="token operator">-</span><span
-                                class="token operator">&gt;</span><span class="token function">getPdo</span><span
-                                class="token punctuation">(</span><span class="token punctuation">)</span><span
-                                class="token punctuation">;</span></code></pre>
-                        <p><a name="running-queries"></a></p>
-                        <h2 id="running-queries"><a href="#running-queries">Running Raw SQL Queries</a></h2>
-                        <p>Once you have configured your database connection, you may run queries using the <code
-                                class=" language-php"><span class="token constant">DB</span></code> facade. The <code
-                                class=" language-php"><span class="token constant">DB</span></code> facade provides
-                            methods for each type of query: <code class=" language-php">select</code>, <code
-                                    class=" language-php">update</code>, <code class=" language-php">insert</code>,
-                            <code class=" language-php">delete</code>, and <code class=" language-php">statement</code>.
-                        </p>
-                        <h4>Running A Select Query</h4>
-                        <p>To run a basic query, you may use the <code class=" language-php">select</code> method on the
-                            <code class=" language-php"><span class="token constant">DB</span></code> facade:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+<p>Note that three keys have been added to the configuration array: <code class=" language-php">read</code>, <code class=" language-php">write</code> and <code class=" language-php">sticky</code>. The <code class=" language-php">read</code> and <code class=" language-php">write</code> keys have array values containing a single key: <code class=" language-php">host</code>. The rest of the database options for the <code class=" language-php">read</code> and <code class=" language-php">write</code> connections will be merged from the main <code class=" language-php">mysql</code> array.</p>
+<p>You only need to place items in the <code class=" language-php">read</code> and <code class=" language-php">write</code> arrays if you wish to override the values from the main array. So, in this case, <code class=" language-php"><span class="token number">192.168</span><span class="token number">.1</span><span class="token number">.1</span></code> will be used as the host for the "read" connection, while <code class=" language-php"><span class="token number">192.168</span><span class="token number">.1</span><span class="token number">.3</span></code> will be used for the "write" connection. The database credentials, prefix, character set, and all other options in the main <code class=" language-php">mysql</code> array will be shared across both connections.</p>
+<h4>The <code class=" language-php">sticky</code> Option</h4>
+<p>The <code class=" language-php">sticky</code> option is an <em>optional</em> value that can be used to allow the immediate reading of records that have been written to the database during the current request cycle. If the <code class=" language-php">sticky</code> option is enabled and a "write" operation has been performed against the database during the current request cycle, any further "read" operations will use the "write" connection. This ensures that any data written during the request cycle can be immediately read back from the database during that same request. It is up to you to decide if this is the desired behavior for your application.</p>
+<p><a name="using-multiple-database-connections"></a></p>
+<h3 id="using-multiple-database-connections"><a href="https://laravel.com/docs/7.x/database#using-multiple-database-connections">Using Multiple Database Connections</a></h3>
+<p>When using multiple connections, you may access each connection via the <code class=" language-php">connection</code> method on the <code class=" language-php"><span class="token constant">DB</span></code> facade. The <code class=" language-php">name</code> passed to the <code class=" language-php">connection</code> method should correspond to one of the connections listed in your <code class=" language-php">config<span class="token operator">/</span>database<span class="token punctuation">.</span>php</code> configuration file:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token variable">$users</span> <span class="token operator">=</span> <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">connection</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'foo'</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>You may also access the raw, underlying PDO instance using the <code class=" language-php">getPdo</code> method on a connection instance:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token variable">$pdo</span> <span class="token operator">=</span> <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">connection</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">getPdo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p><a name="running-queries"></a></p>
+<h2 id="running-queries"><a href="https://laravel.com/docs/7.x/database#running-queries">Running Raw SQL Queries</a></h2>
+<p>Once you have configured your database connection, you may run queries using the <code class=" language-php"><span class="token constant">DB</span></code> facade. The <code class=" language-php"><span class="token constant">DB</span></code> facade provides methods for each type of query: <code class=" language-php">select</code>, <code class=" language-php">update</code>, <code class=" language-php">insert</code>, <code class=" language-php">delete</code>, and <code class=" language-php">statement</code>.</p>
+<h4>Running A Select Query</h4>
+<p>To run a basic query, you may use the <code class=" language-php">select</code> method on the <code class=" language-php"><span class="token constant">DB</span></code> facade:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 
-<span class="token keyword">namespace</span> <span class="token package">App<span class="token punctuation">\</span>Http<span
-                                    class="token punctuation">\</span>Controllers</span><span class="token punctuation">;</span>
+<span class="token keyword">namespace</span> <span class="token package">App<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Controllers</span><span class="token punctuation">;</span>
 
-<span class="token keyword">use</span> <span class="token package">App<span class="token punctuation">\</span>Http<span
-                                    class="token punctuation">\</span>Controllers<span
-                                    class="token punctuation">\</span>Controller</span><span
-                                    class="token punctuation">;</span>
-<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span
-                                    class="token punctuation">\</span>Facades<span class="token punctuation">\</span>DB</span><span
-                                    class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">App<span class="token punctuation">\</span>Http<span class="token punctuation">\</span>Controllers<span class="token punctuation">\</span>Controller</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span class="token punctuation">\</span>Facades<span class="token punctuation">\</span>DB</span><span class="token punctuation">;</span>
 
-<span class="token keyword">class</span> <span class="token class-name">UserController</span> <span
-                                    class="token keyword">extends</span> <span
-                                    class="token class-name">Controller</span>
+<span class="token keyword">class</span> <span class="token class-name">UserController</span> <span class="token keyword">extends</span> <span class="token class-name">Controller</span>
 <span class="token punctuation">{</span>
     <span class="token comment">/**
      * Show a list of all of the application's users.
      *
      * @return Response
      */</span>
-    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">index</span><span
-                                    class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
-        <span class="token variable">$users</span> <span class="token operator">=</span> <span
-                                    class="token constant">DB</span><span class="token punctuation">:</span><span
-                                    class="token punctuation">:</span><span class="token function">select</span><span
-                                    class="token punctuation">(</span><span class="token single-quoted-string string">'select * from users where active = ?'</span><span
-                                    class="token punctuation">,</span> <span class="token punctuation">[</span><span
-                                    class="token number">1</span><span class="token punctuation">]</span><span
-                                    class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$users</span> <span class="token operator">=</span> <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'select * from users where active = ?'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        <span class="token keyword">return</span> <span class="token function">view</span><span
-                                    class="token punctuation">(</span><span class="token single-quoted-string string">'user.index'</span><span
-                                    class="token punctuation">,</span> <span class="token punctuation">[</span><span
-                                    class="token single-quoted-string string">'users'</span> <span
-                                    class="token operator">=</span><span class="token operator">&gt;</span> <span
-                                    class="token variable">$users</span><span class="token punctuation">]</span><span
-                                    class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token function">view</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'user.index'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token single-quoted-string string">'users'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token variable">$users</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></span></code></pre>
-                        <p>The first argument passed to the <code class=" language-php">select</code>
-                            method is the raw SQL query, while the second argument is any parameter
-                            bindings that need to be bound to the query. Typically, these are the
-                            values of the <code class=" language-php">where</code> clause constraints. Parameter binding
-                            provides protection against SQL injection.</p>
-                        <p>The <code class=" language-php">select</code> method will always return an <code
-                                class=" language-php"><span class="token keyword">array</span></code> of results. Each
-                            result within the array will be a PHP <code class=" language-php">stdClass</code> object,
-                            allowing you to access the values of the results:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token keyword">foreach</span> <span class="token punctuation">(</span><span
-                                class="token variable">$users</span> <span class="token keyword">as</span> <span
-                                class="token variable">$user</span><span class="token punctuation">)</span> <span
-                                class="token punctuation">{</span>
-    <span class="token keyword">echo</span> <span class="token variable">$user</span><span
-                                    class="token operator">-</span><span class="token operator">&gt;</span><span
-                                    class="token property">name</span><span class="token punctuation">;</span>
+<p>The first argument passed to the <code class=" language-php">select</code> method is the raw SQL query, while the second argument is any parameter bindings that need to be bound to the query. Typically, these are the values of the <code class=" language-php">where</code> clause constraints. Parameter binding provides protection against SQL injection.</p>
+<p>The <code class=" language-php">select</code> method will always return an <code class=" language-php"><span class="token keyword">array</span></code> of results. Each result within the array will be a PHP <code class=" language-php">stdClass</code> object, allowing you to access the values of the results:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token variable">$users</span> <span class="token keyword">as</span> <span class="token variable">$user</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">echo</span> <span class="token variable">$user</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token property">name</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-                        <h4>Using Named Bindings</h4>
-                        <p>Instead of using <code class=" language-php"><span class="token operator">?</span></code> to
-                            represent your parameter bindings, you may execute a query using named bindings:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token variable">$results</span> <span class="token operator">=</span> <span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">select</span><span
-                                class="token punctuation">(</span><span class="token single-quoted-string string">'select * from users where id = :id'</span><span
-                                class="token punctuation">,</span> <span class="token punctuation">[</span><span
-                                class="token single-quoted-string string">'id'</span> <span
-                                class="token operator">=</span><span class="token operator">&gt;</span> <span
-                                class="token number">1</span><span class="token punctuation">]</span><span
-                                class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-                        <h4>Running An Insert Statement</h4>
-                        <p>To execute an <code class=" language-php">insert</code> statement, you may use the <code
-                                class=" language-php">insert</code> method on the <code class=" language-php"><span
-                                class="token constant">DB</span></code> facade. Like <code
-                                class=" language-php">select</code>, this method takes the raw SQL query as its first
-                            argument and bindings as its second argument:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">insert</span><span
-                                class="token punctuation">(</span><span class="token single-quoted-string string">'insert into users (id, name) values (?, ?)'</span><span
-                                class="token punctuation">,</span> <span class="token punctuation">[</span><span
-                                class="token number">1</span><span class="token punctuation">,</span> <span
-                                class="token single-quoted-string string">'Dayle'</span><span class="token punctuation">]</span><span
-                                class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-                        <h4>Running An Update Statement</h4>
-                        <p>The <code class=" language-php">update</code> method should be used
-                            to update existing records in the database. The number of rows affected
-                            by the statement will be returned:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token variable">$affected</span> <span class="token operator">=</span> <span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">update</span><span
-                                class="token punctuation">(</span><span class="token single-quoted-string string">'update users set votes = 100 where name = ?'</span><span
-                                class="token punctuation">,</span> <span class="token punctuation">[</span><span
-                                class="token single-quoted-string string">'John'</span><span
-                                class="token punctuation">]</span><span class="token punctuation">)</span><span
-                                class="token punctuation">;</span></code></pre>
-                        <h4>Running A Delete Statement</h4>
-                        <p>The <code class=" language-php">delete</code> method should be used to delete records from
-                            the database. Like <code class=" language-php">update</code>, the number of rows affected
-                            will be returned:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token variable">$deleted</span> <span class="token operator">=</span> <span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">delete</span><span
-                                class="token punctuation">(</span><span class="token single-quoted-string string">'delete from users'</span><span
-                                class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-                        <h4>Running A General Statement</h4>
-                        <p>Some database statements do not return any value. For these types of operations, you may use
-                            the <code class=" language-php">statement</code> method on the <code
-                                    class=" language-php"><span class="token constant">DB</span></code> facade:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">statement</span><span
-                                class="token punctuation">(</span><span class="token single-quoted-string string">'drop table users'</span><span
-                                class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-                        <p><a name="listening-for-query-events"></a></p>
-                        <h2 id="listening-for-query-events"><a href="#listening-for-query-events">Listening For Query
-                            Events</a></h2>
-                        <p>If you would like to receive each SQL query executed by your application, you may use the
-                            <code class=" language-php">listen</code> method. This method is useful for logging queries
-                            or debugging. You may register your query listener in a <a
-                                    href="https://laravel.com/docs/7.x/providers">service provider</a>:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+<h4>Using Named Bindings</h4>
+<p>Instead of using <code class=" language-php"><span class="token operator">?</span></code> to represent your parameter bindings, you may execute a query using named bindings:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token variable">$results</span> <span class="token operator">=</span> <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'select * from users where id = :id'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token single-quoted-string string">'id'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h4>Running An Insert Statement</h4>
+<p>To execute an <code class=" language-php">insert</code> statement, you may use the <code class=" language-php">insert</code> method on the <code class=" language-php"><span class="token constant">DB</span></code> facade. Like <code class=" language-php">select</code>, this method takes the raw SQL query as its first argument and bindings as its second argument:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'insert into users (id, name) values (?, ?)'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'Dayle'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h4>Running An Update Statement</h4>
+<p>The <code class=" language-php">update</code> method should be used to update existing records in the database. The number of rows affected by the statement will be returned:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token variable">$affected</span> <span class="token operator">=</span> <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'update users set votes = 100 where name = ?'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token single-quoted-string string">'John'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h4>Running A Delete Statement</h4>
+<p>The <code class=" language-php">delete</code> method should be used to delete records from the database. Like <code class=" language-php">update</code>, the number of rows affected will be returned:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token variable">$deleted</span> <span class="token operator">=</span> <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'delete from users'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h4>Running A General Statement</h4>
+<p>Some database statements do not return any value. For these types of operations, you may use the <code class=" language-php">statement</code> method on the <code class=" language-php"><span class="token constant">DB</span></code> facade:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">statement</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'drop table users'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p><a name="listening-for-query-events"></a></p>
+<h2 id="listening-for-query-events"><a href="https://laravel.com/docs/7.x/database#listening-for-query-events">Listening For Query Events</a></h2>
+<p>If you would like to receive each SQL query executed by your application, you may use the <code class=" language-php">listen</code> method. This method is useful for logging queries or debugging. You may register your query listener in a <a href="https://laravel.com/docs/7.x/providers">service provider</a>:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 
-<span class="token keyword">namespace</span> <span class="token package">App<span class="token punctuation">\</span>Providers</span><span
-                                    class="token punctuation">;</span>
+<span class="token keyword">namespace</span> <span class="token package">App<span class="token punctuation">\</span>Providers</span><span class="token punctuation">;</span>
 
-<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span
-                                    class="token punctuation">\</span>Facades<span class="token punctuation">\</span>DB</span><span
-                                    class="token punctuation">;</span>
-<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span
-                                    class="token punctuation">\</span>ServiceProvider</span><span
-                                    class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span class="token punctuation">\</span>Facades<span class="token punctuation">\</span>DB</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span class="token punctuation">\</span>ServiceProvider</span><span class="token punctuation">;</span>
 
-<span class="token keyword">class</span> <span class="token class-name">AppServiceProvider</span> <span
-                                    class="token keyword">extends</span> <span
-                                    class="token class-name">ServiceProvider</span>
+<span class="token keyword">class</span> <span class="token class-name">AppServiceProvider</span> <span class="token keyword">extends</span> <span class="token class-name">ServiceProvider</span>
 <span class="token punctuation">{</span>
     <span class="token comment">/**
      * Register any application services.
      *
      * @return void
      */</span>
-    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">register</span><span
-                                    class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">register</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
         <span class="token comment">//</span>
     <span class="token punctuation">}</span>
@@ -770,128 +363,53 @@
      *
      * @return void
      */</span>
-    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">boot</span><span
-                                    class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">boot</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
-        <span class="token constant">DB</span><span class="token punctuation">:</span><span
-                                    class="token punctuation">:</span><span class="token function">listen</span><span
-                                    class="token punctuation">(</span><span class="token keyword">function</span> <span
-                                    class="token punctuation">(</span><span class="token variable">$query</span><span
-                                    class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token variable">$query</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
             <span class="token comment">// $query-&gt;sql</span>
             <span class="token comment">// $query-&gt;bindings</span>
             <span class="token comment">// $query-&gt;time</span>
         <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></span></code></pre>
-                        <p><a name="database-transactions"></a></p>
-                        <h2 id="database-transactions"><a href="#database-transactions">Database Transactions</a></h2>
-                        <p>You may use the <code class=" language-php">transaction</code> method on the <code
-                                class=" language-php"><span class="token constant">DB</span></code> facade to run a set
-                            of operations within a database transaction. If an exception is thrown within the
-                            transaction <code class=" language-php">Closure</code>, the transaction will automatically
-                            be rolled back. If the <code class=" language-php">Closure</code>
-                            executes successfully, the transaction will automatically be committed.
-                            You don't need to worry about manually rolling back or committing while
-                            using the <code class=" language-php">transaction</code> method:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">transaction</span><span
-                                class="token punctuation">(</span><span class="token keyword">function</span> <span
-                                class="token punctuation">(</span><span class="token punctuation">)</span> <span
-                                class="token punctuation">{</span>
-    <span class="token constant">DB</span><span class="token punctuation">:</span><span
-                                    class="token punctuation">:</span><span class="token function">table</span><span
-                                    class="token punctuation">(</span><span class="token single-quoted-string string">'users'</span><span
-                                    class="token punctuation">)</span><span class="token operator">-</span><span
-                                    class="token operator">&gt;</span><span class="token function">update</span><span
-                                    class="token punctuation">(</span><span class="token punctuation">[</span><span
-                                    class="token single-quoted-string string">'votes'</span> <span
-                                    class="token operator">=</span><span class="token operator">&gt;</span> <span
-                                    class="token number">1</span><span class="token punctuation">]</span><span
-                                    class="token punctuation">)</span><span class="token punctuation">;</span>
+<p><a name="database-transactions"></a></p>
+<h2 id="database-transactions"><a href="https://laravel.com/docs/7.x/database#database-transactions">Database Transactions</a></h2>
+<p>You may use the <code class=" language-php">transaction</code> method on the <code class=" language-php"><span class="token constant">DB</span></code> facade to run a set of operations within a database transaction. If an exception is thrown within the transaction <code class=" language-php">Closure</code>, the transaction will automatically be rolled back. If the <code class=" language-php">Closure</code> executes successfully, the transaction will automatically be committed. You don't need to worry about manually rolling back or committing while using the <code class=" language-php">transaction</code> method:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">transaction</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">table</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'users'</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token single-quoted-string string">'votes'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    <span class="token constant">DB</span><span class="token punctuation">:</span><span
-                                    class="token punctuation">:</span><span class="token function">table</span><span
-                                    class="token punctuation">(</span><span class="token single-quoted-string string">'posts'</span><span
-                                    class="token punctuation">)</span><span class="token operator">-</span><span
-                                    class="token operator">&gt;</span><span class="token function">delete</span><span
-                                    class="token punctuation">(</span><span class="token punctuation">)</span><span
-                                    class="token punctuation">;</span>
+    <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">table</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'posts'</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-                        <h4>Handling Deadlocks</h4>
-                        <p>The <code class=" language-php">transaction</code> method accepts an
-                            optional second argument which defines the number of times a transaction
-                            should be reattempted when a deadlock occurs. Once these attempts have
-                            been exhausted, an exception will be thrown:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">transaction</span><span
-                                class="token punctuation">(</span><span class="token keyword">function</span> <span
-                                class="token punctuation">(</span><span class="token punctuation">)</span> <span
-                                class="token punctuation">{</span>
-    <span class="token constant">DB</span><span class="token punctuation">:</span><span
-                                    class="token punctuation">:</span><span class="token function">table</span><span
-                                    class="token punctuation">(</span><span class="token single-quoted-string string">'users'</span><span
-                                    class="token punctuation">)</span><span class="token operator">-</span><span
-                                    class="token operator">&gt;</span><span class="token function">update</span><span
-                                    class="token punctuation">(</span><span class="token punctuation">[</span><span
-                                    class="token single-quoted-string string">'votes'</span> <span
-                                    class="token operator">=</span><span class="token operator">&gt;</span> <span
-                                    class="token number">1</span><span class="token punctuation">]</span><span
-                                    class="token punctuation">)</span><span class="token punctuation">;</span>
+<h4>Handling Deadlocks</h4>
+<p>The <code class=" language-php">transaction</code> method accepts an optional second argument which defines the number of times a transaction should be reattempted when a deadlock occurs. Once these attempts have been exhausted, an exception will be thrown:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">transaction</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">table</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'users'</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token single-quoted-string string">'votes'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    <span class="token constant">DB</span><span class="token punctuation">:</span><span
-                                    class="token punctuation">:</span><span class="token function">table</span><span
-                                    class="token punctuation">(</span><span class="token single-quoted-string string">'posts'</span><span
-                                    class="token punctuation">)</span><span class="token operator">-</span><span
-                                    class="token operator">&gt;</span><span class="token function">delete</span><span
-                                    class="token punctuation">(</span><span class="token punctuation">)</span><span
-                                    class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span> <span
-                                    class="token number">5</span><span class="token punctuation">)</span><span
-                                    class="token punctuation">;</span></code></pre>
-                        <h4>Manually Using Transactions</h4>
-                        <p>If you would like to begin a transaction manually and have complete control over rollbacks
-                            and commits, you may use the <code class=" language-php">beginTransaction</code> method on
-                            the <code class=" language-php"><span class="token constant">DB</span></code> facade:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span
-                                class="token function">beginTransaction</span><span
-                                class="token punctuation">(</span><span class="token punctuation">)</span><span
-                                class="token punctuation">;</span></code></pre>
-                        <p>You can rollback the transaction via the <code class=" language-php">rollBack</code> method:
-                        </p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">rollBack</span><span
-                                class="token punctuation">(</span><span class="token punctuation">)</span><span
-                                class="token punctuation">;</span></code></pre>
-                        <p>Lastly, you can commit a transaction via the <code class=" language-php">commit</code>
-                            method:</p>
-                        <pre class=" language-php"><code class=" language-php"><span
-                                class="token constant">DB</span><span class="token punctuation">:</span><span
-                                class="token punctuation">:</span><span class="token function">commit</span><span
-                                class="token punctuation">(</span><span class="token punctuation">)</span><span
-                                class="token punctuation">;</span></code></pre>
-                        <blockquote>
-                            <div class="callout">
-                                <div class="icon purple"><img src="01-Getting%20Started_files/lightbulb.svg"></div>
-                                <p class="content"> The <code class=" language-php"><span
-                                        class="token constant">DB</span></code> facade's transaction methods control the
-                                    transactions for both the <a href="https://laravel.com/docs/7.x/queries">query
-                                        builder</a> and <a href="https://laravel.com/docs/7.x/eloquent">Eloquent ORM</a>.
-                                </p></div>
-                        </blockquote>
+    <span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">table</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'posts'</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h4>Manually Using Transactions</h4>
+<p>If you would like to begin a transaction manually and have complete control over rollbacks and commits, you may use the <code class=" language-php">beginTransaction</code> method on the <code class=" language-php"><span class="token constant">DB</span></code> facade:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">beginTransaction</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>You can rollback the transaction via the <code class=" language-php">rollBack</code> method:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">rollBack</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Lastly, you can commit a transaction via the <code class=" language-php">commit</code> method:</p>
+<pre class=" language-php"><code class=" language-php"><span class="token constant">DB</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<blockquote>
+<div class="callout"><div class="icon purple"><img src="./01-Getting Started_files/lightbulb.min.svg"></div><p class="content"> The <code class=" language-php"><span class="token constant">DB</span></code> facade's transaction methods control the transactions for both the <a href="https://laravel.com/docs/7.x/queries">query builder</a> and <a href="https://laravel.com/docs/7.x/eloquent">Eloquent ORM</a>.</p></div>
+</blockquote>
+                        </section>
                     </section>
                 </section>
-            </section>
+            </div>
         </div>
+
     </div>
 
-</div>
+
+
+
+<script src="./01-Getting Started_files/app.js.download"></script>
 
 </body>
-<script src="../index_files/app.js.download"></script>
+
 </html>
