@@ -21,6 +21,5 @@ You can find the online version of the Laravel documentation at [https://laravel
 
 | Version  | Status |
 | ------------- | ------------- |
-| [8.x](https://laravel.com/docs/8.x)  | Soon!  |
 | [7.x](https://laravel.com/docs/7.x)  | Released  |
 | [6.x](https://laravel.com/docs/6.x)  | Released  |
